@@ -7,12 +7,12 @@ services:
         source: db_data
         target: /var/lib/postgresql/data
       - type: bind
-        source: ./chinook_data.sql
-        target: /docker-entrypoint-initdb.d/chinook_data.sql
+        source: ./northwind_data.sql
+        target: /docker-entrypoint-initdb.d/northwind_data.sql
     environment:
       POSTGRES_USER: vagrant
       POSTGRES_PASSWORD: vagrant
-      POSTGRES_DB: chinook
+      POSTGRES_DB: northwind
   web:
     depends_on:
       - db
@@ -22,7 +22,7 @@ services:
     ports:
       - "8080:8080"
     environment:
-      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/chinook
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/northwind
       SPRING_DATASOURCE_USERNAME: vagrant
       SPRING_DATASOURCE_PASSWORD: vagrant
 
