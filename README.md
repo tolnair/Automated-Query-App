@@ -1,6 +1,6 @@
 # Automated-Query-App
 
-Automatically Installed PSQL Query Application
+Automatically Installed PSQL Query Webpage With Database
 
 If you download the repository then you can launch two docker containers, one has the chinook-database, the other has a tomcat based web server.
 
