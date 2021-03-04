@@ -3,7 +3,7 @@
 If you download the repository then you can launch two docker containers, one has the northwind-database, the other has a tomcat based web server.
 
 The install.sh file has been created, it will automatically install docker and docker-compose on the machine, 
-then start the containers and make the website available at localhosts' port 8080: http://localhost:8080.
+then start the containers and make the website available at localhosts' port 8080.
 
 **For run the install.sh, use these commands:**
 
@@ -13,6 +13,8 @@ then start the containers and make the website available at localhosts' port 808
 - **./install.sh**
 
 *If you don't start the install.sh in the Automated-Query-App directory, you'll get an error.*
+
+**Now visit the http://localhost:8080 page and paste these queries:**
 
 You can use these queries for listing ...
 
