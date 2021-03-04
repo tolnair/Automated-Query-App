@@ -9,8 +9,8 @@ then start the containers and make the website available on localhosts' port 808
 
 For run the install.sh, use these commands:
 
-cd Automated-Query-App
-./install.sh
+- cd Automated-Query-App
+- ./install.sh
 
 *If you don't start the install.sh in the Automated-Query-App directory, you'll get an error.
 
