@@ -1,4 +1,4 @@
-# Automatically Installed Query Webpage With RDBMS as PSQL
+# Automated Installer of Query Webpage With RDBMS as PSQL
 
 > If you download the repository then you can launch two docker containers,
 > one has the northwind-database, the other has a tomcat based web server.
